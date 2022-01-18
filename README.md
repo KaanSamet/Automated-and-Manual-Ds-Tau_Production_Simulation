@@ -1,7 +1,7 @@
 # Ds-Tau_Production_Simulation
 Performs Ds-Tau Production simulation with randomly generated numbers that makes sense physically (Using meaningful probability distributions for quantum-level particles)
 
-You need Cern Root framework in your basrc and python in order to run the code. I used ubuntu 18.04 because of its stability and newest cern root version 6.
+You need Cern Root framework in your basrc and python in order to run the code. I used ubuntu 18.04 because of its stability and newest cern root version 6. Automated version is Main.py and it imports MyFunctions.py. Also nu_tau_mom.100GeV_tau_decay.dat file needs to be in the same directory with them since they import experimental tau neutrino data points. The normal code that is with n = 6.1 and b = 0.8 values can be irectly drawn from Hardcoded.py.
 
 Experiment mainly simulates decay of a Ds particle to tau and tau neutrino particles. Since this experiment could not be performed fastly with instruments because of the background noise and tiny kink angle, we generate the experiment with this code. Code mainly generates probability distribution of a Ds particle and calculates its momentum. It also calculates Tau and Tau Neutrino momentums and kink angles. We then compare Ds and Tau kink angles and see why it is too hard to detect Ds particles.
 
